@@ -1,0 +1,182 @@
+.page-header {
+  height: 100px;
+  width: 100%;
+}
+.page-header-col1 {
+  height: 100px;
+  width: 15%;
+  float: left;
+}
+.page-header-image {
+  height: 80px;
+  width: 160px;
+}
+.page-header-col2 {
+  height: 100px;
+  width: 60%;
+  float: left;
+}
+.page-header-col2-ul {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+.page-right-main {
+  height: 500px;
+  width: 55%;
+  float: right;
+}
+
+.page-right-image {
+  height: 100%;
+  width: 90%;
+}
+
+ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: gray;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
+}
+
+.page-header-col3 {
+  height: 100px;
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ffd8db;
+  color: #a389cc;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 30px;
+}
+.btn2 {
+  background-color: #5243c0;
+  color: #ffffff;
+  padding: 7px 30px;
+  border-radius: 18px;
+  margin: 10px;
+}
+
+.btn-logo {
+  display: flex;
+}
+.btn-logo img {
+  margin: 5px;
+}
+
+.page-left-main {
+  height: 600px;
+  width: 45%;
+  float: left;
+}
+h1 {
+  font-size: 50px;
+}
+.hone {
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+  display: inline-flex;
+}
+.para {
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+}
+.container {
+  margin-top: 80px;
+}
+.user1 {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-around;
+  margin: 10px;
+}
+.color1 {
+  height: 10px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: lightpink;
+  margin: 20px;
+}
+
+.user2 {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.color2 {
+  height: 10px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: red;
+  margin: 20px;
+}
+
+.user3 {
+  display: flex;
+  background-color: lightgray;
+  justify-content: space-around;
+  margin: 10px;
+}
+.tab-checkbox-logo {
+  height: 40px;
+  margin-top: 5px;
+  width: 40px;
+}
+.color3 {
+  height: 10px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: green;
+  margin: 20px;
+}
+.user4 {
+  display: flex;
+  background-color: lightgray;
+  background-color: #c6c1c1ef;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.color4 {
+  height: 10px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin: 20px;
+}
+
+.user1:hover,
+.user2:hover,
+.user3:hover,
+.user4:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 5px 23px gray;
+}
+.img-hover {
+  background-image: url("tick-gray.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+.img-hover:hover {
+  background-image: url("tick-blue.png");
+}
